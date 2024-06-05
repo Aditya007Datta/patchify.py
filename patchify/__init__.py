@@ -34,7 +34,7 @@ def patchify(image: np.ndarray, patch_size: Imsize, step: int = 1) -> np.ndarray
 
 def unpatchify(patches: np.ndarray, imsize: Imsize) -> np.ndarray:
     """
-    Merge patches into the orignal image
+    Merge patches into the original image
 
     Parameters
     ----------
